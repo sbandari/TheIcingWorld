@@ -4,4 +4,4 @@ Website For Icing World
 
 Technologies-Bootstrap,HTML5,CSS3,JavaScript,Jquery
 
-URL-http://santoshbandari.azurewebsites.net/
+URL-http://santoshbandari.azurewebsites.net/theicingworld
