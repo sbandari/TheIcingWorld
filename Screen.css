@@ -1,0 +1,277 @@
+/* CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+/* remember to define visible focus styles!
+
+/* remember to highlight inserts somehow! */
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*structural elements */
+
+
+/*.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}*/
+
+
+/*.navbar .navbar-collapse {
+    text-align: center;
+}*/
+
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font: italic bold 20px/30px Georgia, serif;
+}
+
+header {
+    font-size: 100px;
+    cursor: pointer;
+    overflow: hidden;
+    border: 0 solid;
+    border-bottom-width: 1px;
+    font: italic normal normal 100px "Aclonica", Helvetica, sans-serif;
+    font-size: color: #2e3438;
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    box-shadow: 0 14px 7px 2px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.carousel {
+    width: 100%;
+    margin: auto;
+}
+
+main {
+    margin: 50px;
+}
+
+.panel {
+    border: 0;
+}
+
+h6 {
+    background-color: black;
+    color: white;
+}
+
+.functionButton1,
+.functionButton2,
+.functionButton3,
+.functionButton4,
+.functionButton5,
+.functionButton6 {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    display: none;
+    height: auto;
+}
+
+#social {
+    background-color: white;
+    margin: auto;
+    width: 65%;
+    height: 300px;
+    position: relative;
+    top: 10%;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    /* For IE8 and earlier */
+    border-radius: 25px;
+    overflow: hidden;
+    line-height: 150px;
+    -webkit-box-shadow: 1px 9px 13px -4px rgba(28, 29, 30, 0.91);
+    box-shadow: 1px 9px 13px -4px rgba(28, 29, 30, 0.91);
+}
+
+#formsection {
+    width: 65%;
+    position: relative;
+    top: 15%;
+    margin: auto;
+    background-color: lightgrey;
+    border: 1px solid black;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-box-shadow: 1px 9px 13px -4px rgba(28, 29, 30, 0.91);
+    box-shadow: 1px 9px 13px -4px rgba(28, 29, 30, 0.91);
+}
+
+#social h3 {
+    font: italic bold 52px 'Open Sans', sans-serif;
+    color: darkblue;
+}
+
+#social p {
+    font: bold 25px 'Oswald', sans-serif;
+}
+
+.modallist ul,
+.modallist li {
+    display: inline-block;
+    font-family: cursive;
+}
+
+@media only screen and (max-width: 765px) {
+    #social,
+    #formsection {
+        height: auto;
+        width: auto;
+        line-height: normal;
+    }
+    #social h3 {
+        font-size: 30px;
+    }
+    #social p {
+        font-size: 20px
+    }
+}
